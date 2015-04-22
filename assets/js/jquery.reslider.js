@@ -144,8 +144,7 @@
         }
 
         $('.slider-dots').css({
-          'z-index':parseInt($('.slider-block').css('z-index'))+1,
-          'left':($(window).width()-$('.slider-dots').width())/2
+          'z-index':parseInt($('.slider-block').css('z-index'))+1
         })
 
         $('.slider-dots ul li').eq(0).addClass('active');
